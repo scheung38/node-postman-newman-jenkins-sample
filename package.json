@@ -1,0 +1,24 @@
+{
+  "name": "node-postman-newman-jenkins-sample",
+  "version": "0.0.0",
+  "private": true,
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "api-tests-production": "newman run $HOME/WebstormProjects/node-postman-newman-jenkins-sample/tests/Jsonplaceholder.com.postman_collection.json"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "newman": "^3.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
