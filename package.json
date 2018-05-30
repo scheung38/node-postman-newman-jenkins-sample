@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "nodemon ./bin/www",
-    "api-tests-production": "newman run $HOME/WebstormProjects/node-postman-newman-jenkins-sample/tests/Jsonplaceholder.com.postman_collection.json"
+    "api-tests-production": "newman run tests/Jsonplaceholder.com.postman_collection.json"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
